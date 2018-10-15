@@ -1,0 +1,73 @@
+
+body{
+    background-color: #eeeeee !important;
+}
+h3{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 94%;
+    margin: 78px auto;
+}
+.images{
+    width: 150px;
+    height: 180px;;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url('images/2048.png');
+
+}
+.img2{
+    background-image: url('images/veg-memory.png');
+    
+}
+.img3{
+    background-image: url('images/flow-free.png');
+    
+}
+.img4{
+    background-image: url('images/2048-yellow.png');
+    
+}
+.img5{
+    background-image: url('images/2048-original.png');
+    
+}
+.img6{
+    background-image: url('images/snake-vs-block.png');
+    
+}
+.card{
+    height: 298px;
+    border-color: #fff !important;
+    border-radius: 1px !important;
+    margin-top: 10px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 13px;
+}
+.number{
+    margin: 0px !important;
+}
+.stars{
+    
+    color: #737373;
+}
+.free{
+    color: #29bc50;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
